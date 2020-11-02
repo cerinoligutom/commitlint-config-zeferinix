@@ -1,0 +1,41 @@
+{
+	"name": "commitlint-config-zeferinix",
+	"version": "1.0.0",
+	"description": "Shareable commitlint config enforcing conventional commits with a sprinkle of opinions",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"release": "npx standard-version"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cerino-ligutom/commitlint-config-zeferinix.git"
+	},
+	"author": {
+		"email": "zeferinix@gmail.com",
+		"name": "Cerino O. Ligutom III",
+		"url": "https://www.zeferinix.com"
+	},
+	"keywords": [
+		"commitlint",
+		"commitlint-config",
+		"zeferinix"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/cerino-ligutom/commitlint-config-zeferinix/issues"
+	},
+	"homepage": "https://github.com/cerino-ligutom/commitlint-config-zeferinix#readme",
+	"engines": {
+		"node": ">=v10.22.1"
+	},
+	"dependencies": {
+		"@commitlint/config-conventional": "^11.0.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^11.0.0",
+		"husky": "^4.3.0",
+		"standard-version": "^9.0.0"
+	}
+}
