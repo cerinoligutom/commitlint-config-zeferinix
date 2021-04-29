@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/cerino-ligutom/commitlint-config-zeferinix/compare/v2.0.0...v2.0.1) (2021-04-29)
+
+
+### Bug Fixes
+
+* only include relevant files in package ([5aa3ca6](https://github.com/cerino-ligutom/commitlint-config-zeferinix/commit/5aa3ca6ae9af27c44cfe8078c5637cb43a1759df))
+
 ## [2.0.0](https://github.com/cerino-ligutom/commitlint-config-zeferinix/compare/v1.0.0...v2.0.0) (2021-04-29)
 
 
