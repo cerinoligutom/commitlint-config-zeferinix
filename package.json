@@ -3,7 +3,9 @@
   "version": "2.0.0",
   "description": "Shareable commitlint config enforcing conventional commits with a sprinkle of opinions",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
