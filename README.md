@@ -21,3 +21,36 @@ Valid Types:
 | test      | Adding missing tests or correcting existing tests                                                               |
 
 **Note:** Descriptions taken directly from [Angular's Commit Message Type Guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type) except for types that are in **bold** characters as they are new types added by this config.
+
+## Installation
+
+```console
+npm install --save-dev @commitlint/cli @zeferinix/commitlint-config
+```
+
+## Usage
+
+Best used with [husky](https://typicode.github.io/husky) as a `commit-msg` hook.
+
+### With a dedicated Commitlint Config
+
+Create a `commitlint.config.js` file on the root directory and extend with this package:
+
+```js
+module.exports = {
+  extends: ['@zeferinix'],
+};
+```
+
+### With package.json
+
+In the `package.json` of your project
+
+```json
+{
+  "commitlint": {
+    "extends": ["@koober/commitlint-config"],
+    "rules": {}
+  }
+}
+```
