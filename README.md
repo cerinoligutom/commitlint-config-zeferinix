@@ -29,7 +29,7 @@ In the `package.json` of your project
 ```json
 {
   "commitlint": {
-    "extends": ["@zeferinix/commitlint-config"],
+    "extends": ["@zeferinix"],
     "rules": {}
   }
 }
